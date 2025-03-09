@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+h1,h2,h3,h4,h5,h6,p,a,legend{
+    color: white;
+}
+.info{
+    border: 2px;
+    border-style: dashed;
+    border-color: white;
+    width: 500px;
+    a{
+      margin: 2px;  
+    }
+}
+.links{
+    display: flex;
+    width: fit-content;
+    background-color: white;
+}
+.content {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Space between grid items */
+}
+
+.blog {
+    margin-top: 2px;
+    width: fit-content;
+    border: 2px white dashed;
+}
