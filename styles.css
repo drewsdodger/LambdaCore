@@ -22,7 +22,15 @@ h1,h2,h3,h4,h5,h6,p,a,legend{
     display: inline-flex;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 10px; /* Space between grid items */
+    text-align: left;
 }
+.content button{
+    width: 120px;
+}
+fieldset{
+    width: fit-content;
+}
+
 
 .blog {
     margin-top: 2px;
