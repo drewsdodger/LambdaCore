@@ -1,39 +1,41 @@
 body{
     background-color: black;
+    min-width: 1000px;
 }
 h1,h2,h3,h4,h5,h6,p,a,legend{
     color: white;
 }
-.info{
+.info, .rules{
     border: 2px;
     border-style: dashed;
     border-color: white;
     width: 500px;
-    a{
-      margin: 2px;  
-    }
+    a{margin: 2px; }
 }
 .links{
     display: flex;
     width: fit-content;
     background-color: white;
 }
-.content {
-    display: inline-flex;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 10px; /* Space between grid items */
-    text-align: left;
-}
-.content button{
-    width: 120px;
-}
-fieldset{
-    width: fit-content;
-}
-
 
 .blog {
     margin-top: 2px;
     width: fit-content;
     border: 2px white dashed;
 }
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    text-align: left;
+    button{width: 120px;}
+    div{
+        width: fit-content;
+        width: 500px;
+    }
+    padding-left: 0%;
+}
+
