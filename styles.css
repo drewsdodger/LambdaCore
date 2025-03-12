@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,p,a,legend{
     border: 2px;
     border-style: dashed;
     border-color: white;
-    min-width: 100px;
+    min-width: 50px;
     max-width: 600px;
     a{margin: 2px; }
 }
@@ -34,11 +34,9 @@ h1,h2,h3,h4,h5,h6,p,a,legend{
     margin: 20px 0;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     text-align: left;
-    button{max-width: 90px; min-width: 25px;;}
+    button{width: 90px; height: 100%;}
     div{
         width: fit-content;
-        max-width: 200px;
-        min-height: 50px;
     }
     padding-left: 0%;
 }
