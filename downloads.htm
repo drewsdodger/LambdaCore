@@ -3,13 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under construction</title>
+    <title>Downloads</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" async defer></script>
+    <style>
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        img, h2{
+            margin-top: 0px;
+            padding: 0%;
+        }
+        .download{
+            text-align: left;
+            height: 100px; 
+            min-width: 355px; 
+            max-width: 800px; 
+            border: 2px white dashed; 
+        }
+        .container{
+            display: flex;
+            margin: 5px;
+        }
+    </style>
 </head>
-<body>
-    <center>
-        <h1>This page is still being worked on, return later this month (when the frame of the page should be made</h1>
+<body style="min-width: 355px;">
+   <h1>Downloads</h1>
+    <p>use control + f to search for the project ID </p>
+    <hr>
+    <center>           
+        <div class = "container">
+                <div class="download">
+                    <h2>Name: LAMBDA | ID: 00000</h2>
+                    <img src="resources/oldWindow.png">
+                    <img src="resources/OldMacOS.webp">
+                    <img src="resources/OldiOS.png">
+                    <img src="resources/android.webp">
+                    <img src="resources/linux.png">
+                    <button>N/A</button>
+                </div>
+                <div class="download">
+                    <h2>Name: Website source code | ID: 00001</h2>
+                    <img src="resources/oldWindow.png">
+                    <img src="resources/OldMacOS.webp">
+                    <img src="resources/OldiOS.png">
+                    <img src="resources/android.webp">
+                    <img src="resources/linux.png">
+                    <button href="" onclick="alert('Download will be added soon!')">Download</button>
+                </div>
+            </div>
+    </div>
     </center>
+   <hr>
+    <h2>What the icons mean</h2>
+        <a>Windows</a>
+        <img style="width: 50px; height: 50px;" src="resources/NewWindows.png" title="Only compatible with modern Windows(or requires patches for older Windows)">
+        <img style="width: 50px; height: 50px;" src="resources/oldWindow.png" title="Works on the majority of Windows versions">
+        <br>
+        <a>MacOS</a>
+        <img style="width: 50px; height: 50px;" src="resources/newMacOS.png" title="Requires an ARM copy of MacOS">
+        <img style="width: 50px; height: 50px;" src="resources/OldMacOS.webp" title="Works on the any Mac (except PowerPC)">
+        <br>
+        <a>iOS</a>
+        <img style="width: 50px; height: 50px;" src="resources/NewiOS.png" title="Requires modern iOS, more information to be determined">
+        <img style="width: 50px; height: 50px;" src="resources/OldiOS.png" title="Requires an older version of iOS, more information to be determined">
+        <br>
+        <a>Linux systems</a>
+        <img style="width: 50px; height: 50px;" src="resources/android.webp" title="Runs on Android">
+        <img style="width: 50px; height: 50px;" src="resources/linux.png" title="Runs on Linux systems (via docker or natively)">
+
+        <h2>Concerns</h2>
+        <p>Whilst we promise there is no malware within our software, we still emplore you to check any files you download, you can check via <a href="virustotal.com">VirusTotal</a>, use Windows Defender, or whatever your go to is.</p>
+        <p>If you do find malware please <a href="midnightdodger0@gmail.com">let us know</a></p>
 </body>
 </html>
